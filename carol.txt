@@ -1,0 +1,8 @@
+vou usar python para backend.
+https://www.python.org/
+vou usar para comitar os arquivos no repositório.
+https://desktop.github.com/
+vou usar ide para ler os arquivos.
+https://code.visualstudio.com/
+vou usar para ver as aplicações.
+https://www.google.com.br/
