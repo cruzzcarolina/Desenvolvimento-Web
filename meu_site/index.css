@@ -1,0 +1,24 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: rosybrown;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color:rosybrown;
+  text-align: center;
+}
+h3 {
+  font-size: 18px;
+  color: rgb(114, 10, 45);
+  text-align: center;
+}
+span {
+  background-color: rgb(114, 10, 45);
+}
+div {
+  color: rosybrown;
+  background-color: rgb(114, 10, 45);
+}
