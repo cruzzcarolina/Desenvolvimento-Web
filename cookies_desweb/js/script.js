@@ -40,6 +40,17 @@ const  manipula_evento = ( evento ) => {
     const imagem_clicada = evento.target;
     document.cookie = `valor=${imagem_clicada.dataset.valor}`;
     document.cookie = `nome=${imagem_clicada.dataset.nome}`;
+    // sessionStorage
+    sessionStorage.setItem('valor', imagem_clicada.dataset.valor);
+    sessionStorage.setItem('nome', imagem_clicada.dataset.nome);
+    sessionStorage.setItem('descricao', imagem_clicada.dataset.descricao);
+    sessionStorage.setItem('caminho', imagem_clicada.src);
+    //localStorage
+    localStorage.setItem('valor', imagem_clicada.dataset.valor);
+    localStorage.setItem('nome', imagem_clicada.dataset.nome);
+    localStorage.setItem('descricao', imagem_clicada.dataset.descricao);
+    localStorage.setItem('caminho', imagem_clicada.src);
+    
     cartao(imagem_clicada);
 }
 
@@ -57,6 +68,7 @@ const criar_imagens = (entrada) => {
             // dados
             imagem_numero.dataset.nome = ele.nome;
             imagem_numero.dataset.valor = ele.valor;
+            imagem_numero.dataset.descricao = ele.descricao;
 
             div_lista_imagens.appendChild(imagem_numero);
         }
